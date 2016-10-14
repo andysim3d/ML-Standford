@@ -22,8 +22,7 @@ for iter = 1:num_iters
     tmp = (X * theta - y);
     for i = 1 : size(X, 2)
         
-        tmps = theta(i) - alpha * X(:, i)' * (tmp) / m;
-        theta(i) = tmps;
+        tmp0 = theta(1) - X(: (tmp
 
     end
 
